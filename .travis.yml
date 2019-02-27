@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: xOyAlWSX099nauiASwqTVo53QhEFcPuGZN/nt9Tv5gZSG13Qe3UQ2zwVuVR1b0Yue5IgiZlJbBx4mkqKDFX0oiWvC4MAffXNXbrlhE1A7D5CxCUuN1xuLuaml/2RQu8TE6vifthLVuePkcUDjUEvq7UKIPH1i+FTL+fBM9H5MX/D1xF2aLO1LZLkWPpP5r1MMS/W6fZGBrKJKaHHMEzwA+l6s+JjdqvGxQ5IqDqcLPyS/8XsSmO8DEGa6CegOuodD8/EIjyLRG2VSAOZpKbY7C2Nab480R1GLFxt8RQDiiDBSQN2HA9tAr0znpzK00MA3Hp1wWiPY4l8GECOZxh7/izq8PB7YVEZaqqaNdrYYoF0t4rF/XIN0hJI0KvdCtZfzoqQC8UEVP68bsUs23TsOUdtbkxb15VusDLqWGNqHB04bQRmN6lx/a/Z/mNfaoJTixIpte68/Jmq191aQ9PFaEMHaWuIzhzbnntSEBsWm8c8FhVGh/POY1v0SRjWftJtHaG+LAigGbF0FU0uM6eTg/dPdPtDMuxbzEQnQs7MKfstuGWoIVLgeuK7Dn6/xoq3/e+joy6PLmmwjL4ljFUMaJthyR9xak9iY7JohFds1RYoiep0qhuKHnpuiRHLr/x/fn4N7QZeuR2v6S39aNspeK+ZlDcgzF63AAGmEpdudsI=
+  app: safe-everglades-68114
+  on:
+    repo: namninja/blog-app-mongoose-challenge
